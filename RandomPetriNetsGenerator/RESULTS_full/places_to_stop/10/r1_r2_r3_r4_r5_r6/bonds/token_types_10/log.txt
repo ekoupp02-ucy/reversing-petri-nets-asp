@@ -1,0 +1,3723 @@
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_0.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 2
+Place average OUT degree:  1.0  ( max: 2 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[0, 4, 4, 0, 0, 1, 0, 0, 0]
+
+places= [[1], [], [4, 7], [5], [0], [3], [6], [2], [8], [9]]
+transitions= [[8], [6], [3], [4], [2], [5], [2], [7], [9], [1]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a1']
+(2, 4): ['a8']
+(2, 7): ['a1']
+(3, 5): ['a9']
+(4, 0): ['a9']
+(5, 3): ['a0']
+(6, 6): ['a1']
+(7, 2): ['a9']
+(8, 8): ['a9']
+(9, 9): ['a9']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 8): ['a9']
+(1, 6): ['a1']
+(2, 3): ['a9']
+(3, 4): ['a0']
+(4, 2): ['a8']
+(5, 5): ['a9']
+(6, 2): ['a1']
+(7, 7): ['a1']
+(8, 9): ['a9']
+(9, 1): ['a9']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a3', 'a4', 'a5', 'a6', 'a7']
+p2: ['a0', 'a2', 'a8', 'bond(a0,a2)']
+p3: ['a9']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_0.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_0.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_0.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_1.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 16
+Ptarcs: 18
+Tparcs: 17 
+
+Place average  IN degree:  1.7  ( max: 3 ) on pl 1
+Place average OUT degree:  1.8  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.12  ( max: 2 ) on tr 9
+Trans average OUT degree:  1.06  ( max: 2 ) on tr 7
+
+PLACE IN-OUT DIFF:  [-2, 3, -1, 0, -1, 0, 2, -1, -1, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, -1, 0, 1, 1, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 1, 4, 1, 4, 4, 0, 0, 0]
+
+places= [[1, 2], [], [0, 3, 5], [4, 8, 11], [9, 10], [7, 12], [6], [13, 14], [9, 10], [15]]
+transitions= [[5], [1], [3], [1], [2], [2], [1], [4, 8], [3], [7], [6], [3], [5], [9], [6], [6]] 
+
+
+--- ptarcs (size=18) ---
+(0, 1): ['a5']
+(0, 2): ['a9']
+(2, 0): ['a3']
+(2, 3): ['a7']
+(2, 5): ['a9']
+(3, 4): ['a9']
+(3, 8): ['a1']
+(3, 11): ['a5']
+(4, 9): ['a1']
+(4, 10): ['a2']
+(5, 7): ['a1', 'a6']
+(5, 12): ['a3']
+(6, 6): ['a8']
+(7, 13): ['a1']
+(7, 14): ['a2']
+(8, 9): ['a6']
+(8, 10): ['a8']
+(9, 15): ['a1']
+--- end ptarcs ---
+
+
+--- tparcs (size=17) ---
+(0, 5): ['a3']
+(1, 1): ['a5']
+(2, 3): ['a9']
+(3, 1): ['a7']
+(4, 2): ['a9']
+(5, 2): ['a9']
+(6, 1): ['a8']
+(7, 4): ['a1']
+(7, 8): ['a6']
+(8, 3): ['a1']
+(9, 7): []
+(10, 6): ['a2', 'a8']
+(11, 3): ['a5']
+(12, 5): ['a3']
+(13, 9): ['a1']
+(14, 6): ['a2']
+(15, 6): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a4', 'a5', 'a9']
+p2: ['a3', 'a7']
+p3: ['a1']
+p4: ['a2']
+p5: ['a6']
+p6: ['a8']
+p7: ['bond(a3,a6)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_1.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_1.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_1.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_2.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 11
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 2 ) on pl 1
+Place average OUT degree:  1.1  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, -2, 1, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 5, 0, 1, 1, 0, 0, 0]
+
+places= [[10], [], [1, 2, 3], [7], [9], [5], [4], [8], [0], [6]]
+transitions= [[3], [7], [3], [1], [2], [4], [5], [6], [1], [8], [9]] 
+
+
+--- ptarcs (size=11) ---
+(0, 10): ['a9']
+(2, 1): ['a3']
+(2, 2): ['a3']
+(2, 3): ['a5']
+(3, 7): ['a3']
+(4, 9): ['a0']
+(5, 5): ['a0']
+(6, 4): ['a2']
+(7, 8): ['a3']
+(8, 0): ['a2']
+(9, 6): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 3): ['a2']
+(1, 7): ['a3']
+(2, 3): ['a3']
+(3, 1): ['a5']
+(4, 2): ['a2']
+(5, 4): ['a0']
+(6, 5): ['a3']
+(7, 6): ['a3']
+(8, 1): ['a3']
+(9, 8): ['a0']
+(10, 9): ['a9']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a4', 'a6', 'a7', 'a8', 'a9']
+p2: ['a3', 'a5', 'bond(a5,a9)']
+p4: ['a0']
+p6: ['a2']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_2.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_2.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_2.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_3.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 2 ) on pl 1
+Place average OUT degree:  1.0  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.4  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, -1, 0, 0, 0, 1, 0, 2, 2]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0, -2, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 1, 2, 2, 2, 1, 0, 0, 0]
+
+places= [[3, 7], [], [0, 8], [2], [4], [5, 9], [6], [1], [], []]
+transitions= [[1, 8, 9], [6], [5], [4], [6], [2], [3], [7], [1, 8, 9], [5]] 
+
+
+--- ptarcs (size=10) ---
+(0, 3): ['a9']
+(0, 7): ['a9']
+(2, 0): ['a1', 'a6']
+(2, 8): ['a1', 'a6']
+(3, 2): ['a8']
+(4, 4): ['a9']
+(5, 5): ['a8']
+(5, 9): ['a0']
+(6, 6): ['a8']
+(7, 1): ['a8']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 1): []
+(0, 8): ['a6']
+(0, 9): ['a1']
+(1, 6): ['a8']
+(2, 5): ['a8']
+(3, 4): ['a9']
+(4, 6): ['a9']
+(5, 2): ['a8']
+(6, 3): ['a8']
+(7, 7): ['a9']
+(8, 1): ['a6']
+(8, 8): ['a1']
+(8, 9): []
+(9, 5): ['a0']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a2', 'a4', 'a7', 'a9']
+p2: ['a0', 'a1', 'a3', 'a5', 'a6', 'bond(a0,a3)', 'bond(a5,a9)']
+p3: ['a8']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_3.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_3.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_3.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_4.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 7
+Place average OUT degree:  1.0  ( max: 2 ) on pl 7
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 2, 3, 0, 0, 1, 0, 0, 0]
+
+places= [[1], [], [8], [2], [3], [4], [9], [6, 7], [5], [0]]
+transitions= [[7], [5], [2], [1], [3], [6], [4], [7], [8], [9]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a1']
+(2, 8): ['a0']
+(3, 2): ['a0']
+(4, 3): ['a4']
+(5, 4): ['a1']
+(6, 9): ['a4']
+(7, 6): ['a6']
+(7, 7): ['a6']
+(8, 5): ['a4']
+(9, 0): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 7): ['a6']
+(1, 5): ['a1']
+(2, 2): ['a0']
+(3, 1): ['a4']
+(4, 3): ['a1']
+(5, 6): ['a4']
+(6, 4): ['a6']
+(7, 7): ['a6']
+(8, 8): ['a0']
+(9, 9): ['a4']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a3', 'a5', 'a7', 'a9']
+p2: ['a0']
+p3: ['a8', 'bond(a0,a8)']
+p4: ['a4']
+p7: ['a6']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_4.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_4.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_4.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_5.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 2
+Place average OUT degree:  0.9  ( max: 1 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.11  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 1, 4, 1, 0, 1, 0, 0, 0]
+
+places= [[4], [], [2], [1], [3], [6], [5], [0], [7], [8]]
+transitions= [[2, 4], [8], [2], [9], [6], [5], [7], [1], [3]] 
+
+
+--- ptarcs (size=9) ---
+(0, 4): ['a0']
+(2, 2): ['a1']
+(3, 1): ['a4']
+(4, 3): ['a8']
+(5, 6): ['a0']
+(6, 5): ['a0']
+(7, 0): ['a3', 'a8', 'a1']
+(8, 7): ['a4']
+(9, 8): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 2): ['a3', 'a1']
+(0, 4): ['a8']
+(1, 8): ['a4']
+(2, 2): ['a1']
+(3, 9): ['a8']
+(4, 6): ['a0']
+(5, 5): ['a0']
+(6, 7): ['a0']
+(7, 1): ['a4']
+(8, 3): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a5', 'a6', 'a9']
+p2: ['a1']
+p3: ['a4']
+p4: ['a8']
+p7: ['a3']
+p9: ['a2', 'a7', 'bond(a2,a8)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_5.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_5.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_5.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_6.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 16 
+
+Place average  IN degree:  1.6  ( max: 3 ) on pl 9
+Place average OUT degree:  1.4  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.14  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 2, 0, 1, -1, 0, 0, 0, 1, 2]
+
+TRANS IN-OUT DIFF:  [-1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 2, 2, 1, 3, 3, 0, 0, 0]
+
+places= [[2, 4, 9], [], [0, 10], [], [3, 5, 11], [1], [6, 8], [7], [12], [13]]
+transitions= [[4, 7], [1, 9], [2], [9], [8], [9], [1], [6], [6], [8], [2], [4], [5], [3]] 
+
+
+--- ptarcs (size=14) ---
+(0, 2): ['a7']
+(0, 4): ['a0']
+(0, 9): ['a0']
+(2, 0): ['a1', 'a2', 'a3']
+(2, 10): ['a7']
+(4, 3): ['a1']
+(4, 5): ['a3']
+(4, 11): ['a0']
+(5, 1): ['a1', 'a4']
+(6, 6): ['a4']
+(6, 8): ['a2']
+(7, 7): ['a2']
+(8, 12): ['a0']
+(9, 13): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=16) ---
+(0, 4): ['a3', 'a1']
+(0, 7): ['a2']
+(1, 1): []
+(1, 9): []
+(2, 2): ['a7']
+(3, 9): ['a1']
+(4, 8): ['a0']
+(5, 9): ['a3']
+(6, 1): ['a4']
+(7, 6): ['a2']
+(8, 6): ['a2']
+(9, 8): ['a0']
+(10, 2): ['a7']
+(11, 4): ['a0']
+(12, 5): ['a0']
+(13, 3): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a5', 'a6', 'a7', 'a8']
+p2: ['a1', 'a2', 'a3']
+p5: ['a4', 'a9', 'bond(a7,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_6.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_6.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_6.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_7.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 2 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.44  ( max: 3 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 0, 0, 0, 2, 2, 0]
+
+TRANS IN-OUT DIFF:  [0, -2, 0, 0, -2, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 3, 2, 1, 1, 0, 0, 0]
+
+places= [[1, 2], [], [0], [3], [6], [4], [5, 7], [], [], [8]]
+transitions= [[4], [1, 7, 8], [9], [2], [1, 7, 8], [5], [6], [6], [3]] 
+
+
+--- ptarcs (size=9) ---
+(0, 1): ['a7', 'a9']
+(0, 2): ['a3']
+(2, 0): ['a9']
+(3, 3): ['a3']
+(4, 6): ['a9']
+(5, 4): ['a6', 'a7', 'a2', 'a8']
+(6, 5): ['a0']
+(6, 7): ['a9']
+(9, 8): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 4): ['a9']
+(1, 1): ['a9']
+(1, 7): ['a7']
+(1, 8): []
+(2, 9): ['a3']
+(3, 2): ['a3']
+(4, 1): ['a6']
+(4, 7): ['a8', 'a7']
+(4, 8): ['a2']
+(5, 5): ['a0']
+(6, 6): ['a9']
+(7, 6): ['a9']
+(8, 3): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a3', 'a4', 'a5', 'a7', 'a9', 'bond(a2,a3)']
+p5: ['a6', 'a8']
+p6: ['a0']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_7.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_7.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_7.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_8.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 12
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 1
+Place average OUT degree:  1.2  ( max: 3 ) on pl 4
+Trans average  IN degree:  1.2  ( max: 2 ) on tr 2
+Trans average OUT degree:  1.4  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 3, -1, -1, -2, 0, 1, 3, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, -1, 1, -1, 0, 1, 0, 0, -1, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 3, 2, 3, 0, 0, 0, 0]
+
+places= [[4], [], [2, 5], [2, 5], [0, 3, 8], [1], [6], [], [7], [9]]
+transitions= [[1, 7], [3, 8], [6], [1, 9], [5], [6], [4], [2], [1, 7], [7]] 
+
+
+--- ptarcs (size=12) ---
+(0, 4): ['a9']
+(2, 2): []
+(2, 5): ['a1']
+(3, 2): []
+(3, 5): ['a6']
+(4, 0): ['a4', 'a6']
+(4, 3): ['a2']
+(4, 8): ['a1', 'a0']
+(5, 1): ['a4']
+(6, 6): ['a2']
+(8, 7): ['a4']
+(9, 9): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 1): ['a6']
+(0, 7): ['a4']
+(1, 3): []
+(1, 8): ['a4']
+(2, 6): []
+(3, 1): []
+(3, 9): []
+(4, 5): ['a9']
+(5, 6): ['a6', 'a1']
+(6, 4): ['a2']
+(7, 2): ['a4']
+(8, 1): ['a0']
+(8, 7): ['a1']
+(9, 7): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a3', 'a5', 'a9']
+p2: ['a1', 'a2', 'a6', 'bond(a2,a6)']
+p4: ['a0', 'a4', 'a7', 'a8', 'bond(a2,a8)', 'bond(a6,a7)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_8.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_8.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_8.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_9.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 2 ) on pl 1
+Place average OUT degree:  0.8  ( max: 2 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.5  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, -1, 2, 2, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, -2, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 0, 4, 2, 1, 0, 0, 0, 0]
+
+places= [[1], [], [2, 4], [], [], [3], [0], [5], [6], [7]]
+transitions= [[3, 4, 9], [7], [1, 3, 8], [2], [6], [5], [4], [1]] 
+
+
+--- ptarcs (size=8) ---
+(0, 1): ['a9']
+(2, 2): ['a4', 'a5', 'a9', 'a2']
+(2, 4): ['a6']
+(5, 3): ['a6']
+(6, 0): ['a9', 'a6']
+(7, 5): ['a9']
+(8, 6): ['a5']
+(9, 7): ['a8']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 3): []
+(0, 4): []
+(0, 9): []
+(1, 7): ['a9']
+(2, 1): ['a9']
+(2, 3): ['a4']
+(2, 8): []
+(3, 2): ['a6']
+(4, 6): ['a6']
+(5, 5): ['a9']
+(6, 4): ['a5']
+(7, 1): ['a8']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a3', 'a7', 'a9']
+p2: ['a2', 'a4', 'a5', 'a6']
+p6: ['a8', 'bond(a2,a8)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_9.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_9.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_9.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_10.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 8
+Place average OUT degree:  0.8  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.25  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 1, 1, 0, 1, 0, 0, 0, 1, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 4, 1, 2, 1, 0, 0, 0, 0]
+
+places= [[5, 6], [], [], [4], [], [3], [0], [1], [2], [7]]
+transitions= [[1, 3, 4], [2], [9], [6], [7], [8], [8], [5]] 
+
+
+--- ptarcs (size=8) ---
+(0, 5): ['a5']
+(0, 6): ['a0']
+(3, 4): ['a7']
+(5, 3): ['a6']
+(6, 0): ['a4', 'a5', 'a0', 'a7']
+(7, 1): ['a7']
+(8, 2): ['a1']
+(9, 7): ['a1']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 1): ['a0']
+(0, 3): ['a4', 'a7']
+(0, 4): ['a5']
+(1, 2): ['a7']
+(2, 9): ['a1']
+(3, 6): ['a6']
+(4, 7): ['a7']
+(5, 8): ['a5']
+(6, 8): ['a0']
+(7, 5): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a3', 'a5', 'a8', 'a9']
+p3: ['a7']
+p5: ['a6']
+p6: ['a4']
+p7: ['bond(a0,a6)']
+p8: ['a1']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_10.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_10.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_10.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_11.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 2 ) on pl 1
+Place average OUT degree:  1.0  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.2  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 1, 0, 0, 0, 0, 1]
+
+TRANS IN-OUT DIFF:  [-1, -1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 3, 1, 1, 1, 1, 0, 0, 0]
+
+places= [[2, 6], [], [3], [1, 4], [], [0], [5], [7], [8], [9]]
+transitions= [[1, 9], [1, 9], [8], [3], [3], [5], [6], [2], [7], [4]] 
+
+
+--- ptarcs (size=10) ---
+(0, 2): ['a8']
+(0, 6): ['a1']
+(2, 3): ['a4']
+(3, 1): ['a0', 'a1', 'a4']
+(3, 4): ['a0']
+(5, 0): []
+(6, 5): ['a5']
+(7, 7): ['a6']
+(8, 8): ['a8']
+(9, 9): ['a1']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 1): []
+(0, 9): []
+(1, 1): ['a1']
+(1, 9): ['a0', 'a4']
+(2, 8): ['a8']
+(3, 3): ['a4']
+(4, 3): ['a0']
+(5, 5): ['a5']
+(6, 6): ['a1']
+(7, 2): ['a6']
+(8, 7): ['a8']
+(9, 4): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a3', 'a7', 'a8', 'a9']
+p2: ['a4']
+p3: ['a0']
+p5: ['bond(a0,a1)']
+p6: ['a5']
+p7: ['a6']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_11.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_11.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_11.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_12.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 4
+Place average OUT degree:  0.8  ( max: 2 ) on pl 4
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.25  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 1, 0, 0, 0, 0, 0, 1, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 1, 2, 0, 1, 0, 0, 0]
+
+places= [[5], [], [], [4], [2, 3], [0], [1], [6], [], [7]]
+transitions= [[2, 4, 8], [9], [1], [4], [5], [6], [3], [7]] 
+
+
+--- ptarcs (size=8) ---
+(0, 5): ['a7']
+(3, 4): ['a3']
+(4, 2): ['a0']
+(4, 3): ['a4']
+(5, 0): ['a3', 'a0']
+(6, 1): ['a2']
+(7, 6): ['a9']
+(9, 7): ['a2']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 2): []
+(0, 4): ['a0']
+(0, 8): ['a3']
+(1, 9): ['a2']
+(2, 1): ['a0']
+(3, 4): ['a4']
+(4, 5): ['a3']
+(5, 6): ['a7']
+(6, 3): ['a9']
+(7, 7): ['a2']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a5', 'a6', 'a7', 'a8']
+p3: ['a3']
+p4: ['a0', 'a4']
+p5: ['a1', 'bond(a1,a4)']
+p6: ['a2']
+p7: ['a9']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_12.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_12.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_12.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_13.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 7
+Ptarcs: 9
+Tparcs: 15 
+
+Place average  IN degree:  1.5  ( max: 3 ) on pl 1
+Place average OUT degree:  0.9  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.29  ( max: 2 ) on tr 0
+Trans average OUT degree:  2.14  ( max: 3 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-3, 3, 0, 0, 3, 0, 0, 0, 3, 0]
+
+TRANS IN-OUT DIFF:  [1, -2, -2, -1, -2, -1, 1]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[0, 1, 3, 4, 2, 0, 0, 0, 0]
+
+places= [[1, 2, 3], [], [0], [6], [], [5], [4], [0], [], [6]]
+transitions= [[5], [1, 4, 8], [1, 4, 8], [2, 7], [1, 4, 8], [3, 9], [6]] 
+
+
+--- ptarcs (size=9) ---
+(0, 1): ['a5', 'a8', 'a6', 'a0', 'a1']
+(0, 2): ['a5', 'a2', 'a0', 'a1', 'a6']
+(0, 3): ['a6']
+(2, 0): ['a3']
+(3, 6): []
+(5, 5): []
+(6, 4): ['a0', 'a5', 'a3']
+(7, 0): ['a6']
+(9, 6): []
+--- end ptarcs ---
+
+
+--- tparcs (size=15) ---
+(0, 5): ['a3', 'a6']
+(1, 1): ['a0']
+(1, 4): ['a8', 'a1']
+(1, 8): ['a6', 'a5']
+(2, 1): ['a1']
+(2, 4): []
+(2, 8): ['a6', 'a2']
+(3, 2): []
+(3, 7): ['a6']
+(4, 1): []
+(4, 4): []
+(4, 8): ['a0', 'a5']
+(5, 3): []
+(5, 9): []
+(6, 6): []
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'bond(a3,a4)']
+p5: ['bond(a5,a8)']
+p6: ['bond(a1,a2)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_13.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_13.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_13.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_14.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 2 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 4
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.44  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, 1, 0, -1, 1, 0, 0, 2, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, -2, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 2, 1, 2, 1, 1, 0, 0, 0]
+
+places= [[2], [], [4], [7], [0, 5], [3], [6], [1], [], [8]]
+transitions= [[1, 5, 8], [2], [4], [9], [2], [1, 6, 8], [5], [7], [3]] 
+
+
+--- ptarcs (size=9) ---
+(0, 2): ['a4']
+(2, 4): ['a5']
+(3, 7): ['a0']
+(4, 0): ['a3', 'a6', 'a2', 'a9', 'a0', 'a5']
+(4, 5): ['a6', 'a8', 'a7', 'a2', 'a9']
+(5, 3): ['a3']
+(6, 6): ['a9']
+(7, 1): ['a5']
+(9, 8): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 1): ['a5', 'a9']
+(0, 5): ['a3', 'a2']
+(0, 8): ['a0', 'a6']
+(1, 2): ['a5']
+(2, 4): ['a4']
+(3, 9): ['a3']
+(4, 2): ['a5']
+(5, 1): ['a7', 'a6']
+(5, 6): []
+(5, 8): ['a2']
+(6, 5): ['a9']
+(7, 7): ['a0']
+(8, 3): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a4']
+p2: ['a5']
+p3: ['a0', 'a3', 'a9', 'bond(a3,a9)']
+p4: ['a2', 'a6', 'a7', 'a8']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_14.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_14.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_14.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_15.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 12
+Ptarcs: 12
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 3 ) on pl 5
+Place average OUT degree:  1.2  ( max: 2 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.08  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, -1, 0, 0, 1, 1, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 3, 3, 1, 1, 3, 0, 0, 0]
+
+places= [[3], [], [5, 9], [2, 4], [1], [10, 11], [], [6, 8], [7], [0]]
+transitions= [[6, 7], [3], [2], [4], [3], [5], [1], [7], [8], [5], [5], [9]] 
+
+
+--- ptarcs (size=12) ---
+(0, 3): ['a7']
+(2, 5): ['a4']
+(2, 9): ['a0']
+(3, 2): ['a4']
+(3, 4): ['a8']
+(4, 1): ['a4']
+(5, 10): ['a0']
+(5, 11): ['a4']
+(7, 6): ['a4']
+(7, 8): ['a3']
+(8, 7): ['a3']
+(9, 0): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 6): []
+(0, 7): ['a6']
+(1, 3): ['a4']
+(2, 2): ['a4']
+(3, 4): ['a7']
+(4, 3): ['a8']
+(5, 5): ['a4']
+(6, 1): ['a4']
+(7, 7): ['a3']
+(8, 8): ['a3']
+(9, 5): ['a0']
+(10, 5): ['a0']
+(11, 9): ['a4']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a5', 'a7', 'a9']
+p2: ['a0', 'a4']
+p3: ['a8']
+p7: ['a3']
+p9: ['a6', 'bond(a4,a7)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_15.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_15.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_15.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_16.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 3
+Place average OUT degree:  1.4  ( max: 3 ) on pl 3
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 1, 0, -1, -1, 0, 0, 0, 1]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 2, 3, 0, 2, 3, 0, 0, 0]
+
+places= [[4], [], [7], [2, 10, 11], [3, 5], [1, 8], [0, 12], [6], [9], [13]]
+transitions= [[9], [3], [2], [1], [5], [9], [8], [7], [3], [6], [2], [3], [6], [4]] 
+
+
+--- ptarcs (size=14) ---
+(0, 4): ['a7']
+(2, 7): ['a8']
+(3, 2): ['a8']
+(3, 10): ['a7']
+(3, 11): ['a0']
+(4, 3): ['a9']
+(4, 5): ['a5']
+(5, 1): ['a8']
+(5, 8): ['a7']
+(6, 0): ['a3']
+(6, 12): ['a2']
+(7, 6): ['a2']
+(8, 9): ['a2']
+(9, 13): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 9): ['a3']
+(1, 3): ['a8']
+(2, 2): ['a8']
+(3, 1): ['a9']
+(4, 5): ['a7']
+(5, 9): ['a5']
+(6, 8): ['a2']
+(7, 7): ['a8']
+(8, 3): ['a7']
+(9, 6): ['a2']
+(10, 2): ['a7']
+(11, 3): ['a0']
+(12, 6): ['a2']
+(13, 4): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a4', 'a6', 'a7']
+p2: ['a8']
+p3: ['a0', 'a1', 'a2', 'bond(a1,a2)']
+p4: ['a5', 'a9']
+p6: ['a3']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_16.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_16.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_16.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_17.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 1
+Place average OUT degree:  1.4  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 3, 0, 0, -1, -1, 1, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 4, 2, 0, 3, 2, 0, 0, 0]
+
+places= [[8, 10], [], [3, 4], [2], [0, 5], [6, 9], [1, 12], [7], [11], [13]]
+transitions= [[5], [9], [2], [2], [8], [1], [1], [1], [6], [7], [6], [4], [6], [3]] 
+
+
+--- ptarcs (size=14) ---
+(0, 8): ['a4']
+(0, 10): ['a7']
+(2, 3): ['a9']
+(2, 4): ['a9']
+(3, 2): ['a9']
+(4, 0): ['a4']
+(4, 5): ['a8']
+(5, 6): ['a4']
+(5, 9): ['a1']
+(6, 1): ['a7']
+(6, 12): ['a4']
+(7, 7): ['a2']
+(8, 11): ['a1']
+(9, 13): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 5): ['a4']
+(1, 9): ['a7']
+(2, 2): ['a9']
+(3, 2): ['a9']
+(4, 8): ['a9']
+(5, 1): ['a8']
+(6, 1): ['a4']
+(7, 1): ['a2']
+(8, 6): ['a4']
+(9, 7): ['a1']
+(10, 6): ['a7']
+(11, 4): ['a1']
+(12, 6): ['a4']
+(13, 3): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a4', 'a5', 'a6', 'a7']
+p2: ['a9']
+p4: ['a8']
+p5: ['a1']
+p7: ['a2']
+p8: ['a3', 'bond(a3,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_17.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_17.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_17.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_18.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 5
+Place average OUT degree:  1.0  ( max: 2 ) on pl 5
+Trans average  IN degree:  1.11  ( max: 2 ) on tr 5
+Trans average OUT degree:  1.11  ( max: 2 ) on tr 7
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 1, 0, -1, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 4, 1, 1, 0, 1, 0, 0, 0]
+
+places= [[4], [], [5], [2], [0], [1, 6], [3], [7], [5], [8]]
+transitions= [[9], [3], [7], [4], [5], [6], [5], [2, 8], [1]] 
+
+
+--- ptarcs (size=10) ---
+(0, 4): ['a6']
+(2, 5): []
+(3, 2): ['a8']
+(4, 0): ['a6']
+(5, 1): ['a8']
+(5, 6): ['a6']
+(6, 3): ['a5']
+(7, 7): ['a9', 'a5']
+(8, 5): []
+(9, 8): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 9): ['a6']
+(1, 3): ['a8']
+(2, 7): ['a8']
+(3, 4): ['a5']
+(4, 5): ['a6']
+(5, 6): []
+(6, 5): ['a6']
+(7, 2): ['a9']
+(7, 8): ['a5']
+(8, 1): ['a6']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a3', 'a4', 'a6', 'a7']
+p3: ['a8']
+p6: ['a5']
+p7: ['a1', 'a2', 'a9', 'bond(a1,a2)']
+p8: ['bond(a1,a5)']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_18.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_18.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_18.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_19.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 2 ) on pl 2
+Place average OUT degree:  1.0  ( max: 2 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.2  ( max: 3 ) on tr 4
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 1, 1, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, -2, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 2, 2, 2, 0, 3, 0, 0, 0]
+
+places= [[3], [], [1, 2], [0, 6], [4], [7], [9], [], [8], [5]]
+transitions= [[2], [4], [2], [6], [1, 7, 8], [3], [3], [8], [5], [9]] 
+
+
+--- ptarcs (size=10) ---
+(0, 3): ['a4']
+(2, 1): ['a4']
+(2, 2): ['a8']
+(3, 0): ['a4']
+(3, 6): ['a3']
+(4, 4): ['a9', 'a4', 'a7', 'a5']
+(5, 7): ['a2']
+(6, 9): ['a4']
+(8, 8): ['a5']
+(9, 5): ['a4']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 2): ['a4']
+(1, 4): ['a4']
+(2, 2): ['a8']
+(3, 6): ['a4']
+(4, 1): ['a7', 'a5']
+(4, 7): ['a9']
+(4, 8): ['a4']
+(5, 3): ['a4']
+(6, 3): ['a3']
+(7, 8): ['a2']
+(8, 5): ['a5']
+(9, 9): ['a4']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a4', 'a6']
+p2: ['a8']
+p3: ['a3']
+p4: ['a5', 'a7', 'a9']
+p5: ['a2']
+p8: ['bond(a2,a8)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_19.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_19.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_19.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_20.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 7
+Ptarcs: 9
+Tparcs: 15 
+
+Place average  IN degree:  1.5  ( max: 3 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.29  ( max: 3 ) on tr 3
+Trans average OUT degree:  2.14  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 3, 3, 0, 3, 0, -1, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-2, -2, -2, 2, 0, -2, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[0, 3, 1, 4, 2, 0, 0, 0, 0]
+
+places= [[1, 4], [], [], [3], [], [3], [0, 5], [3], [6], [2]]
+transitions= [[1, 2, 4], [1, 2, 4], [3, 5, 7], [6], [8], [1, 2, 4], [9]] 
+
+
+--- ptarcs (size=9) ---
+(0, 1): ['a4', 'a6', 'a0', 'a2']
+(0, 4): ['a3']
+(3, 3): ['a7']
+(5, 3): []
+(6, 0): ['a7', 'a5', 'a4', 'a0', 'a1']
+(6, 5): ['a3', 'a2', 'a1', 'a0', 'a6', 'a7']
+(7, 3): []
+(8, 6): ['a3']
+(9, 2): ['a7', 'a9', 'a5']
+--- end ptarcs ---
+
+
+--- tparcs (size=15) ---
+(0, 1): ['a4', 'a7']
+(0, 2): ['a5']
+(0, 4): []
+(1, 1): ['a4']
+(1, 2): ['a6', 'a0']
+(1, 4): ['a2']
+(2, 3): ['a7']
+(2, 5): ['a9']
+(2, 7): ['a5']
+(3, 6): ['a7']
+(4, 8): ['a3']
+(5, 1): ['a1', 'a3']
+(5, 2): ['a0', 'a7']
+(5, 4): ['a2', 'a6']
+(6, 9): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a3', 'a4', 'a6']
+p3: ['a5', 'a7', 'a9', 'bond(a5,a9)']
+p6: ['a1']
+p9: ['a8', 'bond(a3,a8)']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_20.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_20.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_20.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_21.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 3
+Place average OUT degree:  1.0  ( max: 2 ) on pl 3
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 3, 4, 0, 0, 1, 0, 0, 0]
+
+places= [[1], [], [2], [3, 6], [4], [5], [9], [7], [8], [0]]
+transitions= [[8], [4], [7], [3], [2], [1], [6], [3], [5], [9]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a9']
+(2, 2): ['a2']
+(3, 3): ['a3']
+(3, 6): ['a8']
+(4, 4): ['a9']
+(5, 5): ['a1']
+(6, 9): ['a8']
+(7, 7): ['a5']
+(8, 8): ['a2']
+(9, 0): ['a2']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 8): ['a2']
+(1, 4): ['a9']
+(2, 7): ['a2']
+(3, 3): ['a3']
+(4, 2): ['a9']
+(5, 1): ['a1']
+(6, 6): ['a8']
+(7, 3): ['a5']
+(8, 5): ['a2']
+(9, 9): ['a8']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a4', 'a7', 'a9']
+p2: ['a2']
+p3: ['a3', 'a8']
+p5: ['a1']
+p7: ['a5', 'a6', 'bond(a2,a6)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_21.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_21.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_21.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_22.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 2 ) on pl 1
+Place average OUT degree:  0.8  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.5  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 2, 2, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-2, -2, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 1, 2, 1, 0, 0, 0, 0]
+
+places= [[2, 3], [], [0], [4], [], [], [1], [5], [6], [7]]
+transitions= [[4, 5, 9], [1, 4, 5], [2], [3], [6], [1], [7], [8]] 
+
+
+--- ptarcs (size=8) ---
+(0, 2): ['a2']
+(0, 3): ['a0']
+(2, 0): ['a2', 'a8', 'a1', 'a4', 'a5']
+(3, 4): ['a0']
+(6, 1): ['a7', 'a0']
+(7, 5): ['a5']
+(8, 6): ['a9']
+(9, 7): ['a1']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 4): ['a2', 'a5']
+(0, 5): ['a8']
+(0, 9): []
+(1, 1): ['a0']
+(1, 4): ['a7']
+(1, 5): []
+(2, 2): ['a2']
+(3, 3): ['a0']
+(4, 6): ['a0']
+(5, 1): ['a5']
+(6, 7): ['a9']
+(7, 8): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a3', 'a6']
+p2: ['a1', 'a4', 'a5', 'a8']
+p6: ['a7', 'a9', 'bond(a8,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_22.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_22.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_22.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_23.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 12
+Tparcs: 15 
+
+Place average  IN degree:  1.5  ( max: 3 ) on pl 5
+Place average OUT degree:  1.2  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.09  ( max: 2 ) on tr 0
+Trans average OUT degree:  1.36  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 2, 0, 1, 0, 2, 0, 0, 1, 0]
+
+TRANS IN-OUT DIFF:  [0, -1, 0, 0, -1, -1, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 0, 5, 2, 2, 2, 0, 0, 0]
+
+places= [[2, 5, 6], [], [1, 3], [0], [7], [9], [4], [8], [0], [10]]
+transitions= [[1, 9], [1, 5], [2], [2], [3, 8], [3, 8], [4], [6], [5], [5], [7]] 
+
+
+--- ptarcs (size=12) ---
+(0, 2): ['a0']
+(0, 5): ['a5']
+(0, 6): ['a3']
+(2, 1): ['a8', 'a0', 'a2']
+(2, 3): ['a4']
+(3, 0): ['a9']
+(4, 7): ['a3']
+(5, 9): ['a8']
+(6, 4): ['a0', 'a4']
+(7, 8): ['a9']
+(8, 0): ['a0']
+(9, 10): ['a0']
+--- end ptarcs ---
+
+
+--- tparcs (size=15) ---
+(0, 1): ['a9']
+(0, 9): ['a0']
+(1, 1): ['a2']
+(1, 5): ['a8', 'a0']
+(2, 2): ['a0']
+(3, 2): ['a4']
+(4, 3): ['a4']
+(4, 8): ['a0']
+(5, 3): []
+(5, 8): ['a5']
+(6, 4): ['a3']
+(7, 6): ['a3']
+(8, 5): ['a9']
+(9, 5): ['a8']
+(10, 7): ['a0']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a3', 'a4', 'a5', 'a6', 'a7', 'a9', 'bond(a4,a9)']
+p2: ['a2', 'a8']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_23.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_23.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_23.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_24.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 3
+Place average OUT degree:  1.4  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, -2, 2, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 4, 2, 0, 2, 3, 0, 0, 0]
+
+places= [[2, 6], [], [1, 3, 5], [4], [0], [7, 11], [10, 12], [8], [9], [13]]
+transitions= [[6], [9], [3], [3], [2], [3], [4], [1], [5], [5], [7], [8], [6], [1]] 
+
+
+--- ptarcs (size=14) ---
+(0, 2): ['a6']
+(0, 6): ['a3']
+(2, 1): ['a9']
+(2, 3): ['a2']
+(2, 5): ['a6']
+(3, 4): ['a6']
+(4, 0): ['a5']
+(5, 7): ['a5']
+(5, 11): ['a7']
+(6, 10): ['a5']
+(6, 12): ['a0']
+(7, 8): ['a7']
+(8, 9): ['a7']
+(9, 13): ['a9']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 6): ['a5']
+(1, 9): ['a9']
+(2, 3): ['a6']
+(3, 3): ['a2']
+(4, 2): ['a6']
+(5, 3): ['a6']
+(6, 4): ['a3']
+(7, 1): ['a5']
+(8, 5): ['a7']
+(9, 5): ['a7']
+(10, 7): ['a5']
+(11, 8): ['a7']
+(12, 6): ['a0']
+(13, 1): ['a9']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a3', 'a4', 'a6', 'a8']
+p2: ['a2', 'a9', 'bond(a2,a3)']
+p4: ['a5']
+p5: ['a7']
+p6: ['a0']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_24.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_24.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_24.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_25.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 12
+Ptarcs: 13
+Tparcs: 18 
+
+Place average  IN degree:  1.8  ( max: 3 ) on pl 1
+Place average OUT degree:  1.3  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.08  ( max: 2 ) on tr 8
+Trans average OUT degree:  1.5  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 3, 1, -2, 2, 0, 2, 0, 2, 0]
+
+TRANS IN-OUT DIFF:  [-1, -1, -1, -1, 0, -1, -1, 0, 1, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[4, 1, 1, 2, 4, 1, 0, 0, 0]
+
+places= [[1, 2, 9], [], [], [3, 5, 6], [7], [4], [8], [0, 10], [8], [11]]
+transitions= [[1, 4], [1, 4], [1, 4], [6, 8], [9], [6, 8], [6, 8], [5], [2], [7], [7], [3]] 
+
+
+--- ptarcs (size=13) ---
+(0, 1): ['a2', 'a6', 'a3', 'a4']
+(0, 2): ['a2']
+(0, 9): ['a6']
+(3, 3): ['a5', 'a9']
+(3, 5): ['a9', 'a7', 'a3']
+(3, 6): ['a3', 'a6']
+(4, 7): ['a2']
+(5, 4): ['a9']
+(6, 8): []
+(7, 0): ['a9', 'a5', 'a2']
+(7, 10): ['a6']
+(8, 8): []
+(9, 11): ['a9']
+--- end ptarcs ---
+
+
+--- tparcs (size=18) ---
+(0, 1): []
+(0, 4): ['a2']
+(1, 1): ['a4', 'a3']
+(1, 4): ['a6', 'a2']
+(2, 1): []
+(2, 4): []
+(3, 6): ['a5']
+(3, 8): ['a9']
+(4, 9): ['a9']
+(5, 6): ['a3']
+(5, 8): []
+(6, 6): []
+(6, 8): ['a6']
+(7, 5): ['a2']
+(8, 2): []
+(9, 7): ['a6']
+(10, 7): ['a6']
+(11, 3): ['a9']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a4', 'a6', 'a8', 'bond(a4,a8)']
+p3: ['a5', 'a7', 'a9', 'bond(a4,a9)']
+p6: ['bond(a3,a9)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_25.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_25.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_25.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_26.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 9 
+
+Place average  IN degree:  0.9  ( max: 1 ) on pl 1
+Place average OUT degree:  0.8  ( max: 1 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.12  ( max: 2 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 1, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, -1, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[0, 3, 4, 1, 0, 0, 0, 0, 0]
+
+places= [[2], [], [4], [0], [], [1], [5], [6], [3], [7]]
+transitions= [[2], [4, 9], [3], [5], [6], [7], [8], [1]] 
+
+
+--- ptarcs (size=8) ---
+(0, 2): ['a5']
+(2, 4): ['a2']
+(3, 0): ['a2']
+(5, 1): ['a4', 'a9']
+(6, 5): ['a2']
+(7, 6): ['a2']
+(8, 3): ['a4']
+(9, 7): ['a4']
+--- end ptarcs ---
+
+
+--- tparcs (size=9) ---
+(0, 2): ['a2']
+(1, 4): ['a9']
+(1, 9): ['a4']
+(2, 3): ['a5']
+(3, 5): ['a4']
+(4, 6): ['a2']
+(5, 7): ['a2']
+(6, 8): ['a2']
+(7, 1): ['a4']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a3', 'a5', 'a6', 'a7', 'a8']
+p2: ['a2']
+p5: ['a4', 'a9']
+p9: ['a0', 'bond(a0,a5)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_26.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_26.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_26.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_27.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 3
+Place average OUT degree:  1.0  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 1, 0, 1, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 5, 1, 0, 1, 0, 0, 0, 0]
+
+places= [[1, 4], [], [7], [8], [2], [6], [5], [0], [3], [9]]
+transitions= [[5], [3], [2], [4], [3], [1], [9], [7], [8], [6]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a1']
+(0, 4): ['a6']
+(2, 7): ['a9']
+(3, 8): ['a1']
+(4, 2): ['a9']
+(5, 6): ['a3']
+(6, 5): ['a8']
+(7, 0): ['a3']
+(8, 3): ['a2']
+(9, 9): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 5): ['a3']
+(1, 3): ['a1']
+(2, 2): ['a9']
+(3, 4): ['a2']
+(4, 3): ['a6']
+(5, 1): ['a8']
+(6, 9): ['a3']
+(7, 7): ['a9']
+(8, 8): ['a1']
+(9, 6): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a5', 'a6']
+p2: ['a9']
+p5: ['a3']
+p6: ['a8']
+p8: ['a2']
+p9: ['a4', 'a7', 'bond(a3,a4)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_27.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_27.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_27.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_28.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 11
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 2 ) on pl 1
+Place average OUT degree:  1.1  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[0, 6, 2, 0, 1, 1, 0, 0, 0]
+
+places= [[4, 5], [], [8], [2], [1, 6], [10], [0], [3], [9], [7]]
+transitions= [[2], [8], [1], [3], [4], [5], [4], [6], [7], [1], [9]] 
+
+
+--- ptarcs (size=11) ---
+(0, 4): ['a2']
+(0, 5): ['a1']
+(2, 8): ['a0']
+(3, 2): ['a9']
+(4, 1): ['a0']
+(4, 6): ['a2']
+(5, 10): ['a1']
+(6, 0): ['a0']
+(7, 3): ['a6']
+(8, 9): ['a0']
+(9, 7): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 2): ['a0']
+(1, 8): ['a0']
+(2, 1): ['a9']
+(3, 3): ['a6']
+(4, 4): ['a2']
+(5, 5): ['a1']
+(6, 4): ['a2']
+(7, 6): ['a7']
+(8, 7): ['a0']
+(9, 1): ['a0']
+(10, 9): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a3', 'a4', 'a5', 'a8']
+p2: ['a0']
+p3: ['a9']
+p7: ['a6']
+p9: ['a7', 'bond(a1,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_28.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_28.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_28.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_29.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 16 
+
+Place average  IN degree:  1.6  ( max: 3 ) on pl 4
+Place average OUT degree:  1.4  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.14  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, -2, 1, 0, 0, 1, 1, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 2, 1, 2, 4, 0, 0, 0]
+
+places= [[4], [], [2, 7, 12], [3], [1, 6, 13], [0, 8, 10], [], [11], [9], [5]]
+transitions= [[1, 7], [3], [3], [2], [4], [4], [4], [5], [1, 7], [5], [5], [6], [8], [9]] 
+
+
+--- ptarcs (size=14) ---
+(0, 4): ['a4']
+(2, 2): ['a0']
+(2, 7): ['a2']
+(2, 12): ['a7']
+(3, 3): ['a0']
+(4, 1): ['a1']
+(4, 6): ['a9']
+(4, 13): ['a4']
+(5, 0): ['a7', 'a3', 'a0']
+(5, 8): ['a8', 'a0']
+(5, 10): ['a2']
+(7, 11): ['a0']
+(8, 9): ['a6']
+(9, 5): ['a9']
+--- end ptarcs ---
+
+
+--- tparcs (size=16) ---
+(0, 1): ['a7']
+(0, 7): []
+(1, 3): ['a1']
+(2, 3): ['a0']
+(3, 2): ['a0']
+(4, 4): ['a4']
+(5, 4): ['a9']
+(6, 4): ['a9']
+(7, 5): ['a2']
+(8, 1): ['a0']
+(8, 7): ['a8']
+(9, 5): ['a6']
+(10, 5): ['a2']
+(11, 6): ['a0']
+(12, 8): ['a7']
+(13, 9): ['a4']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a4', 'a5']
+p2: ['a0', 'a2', 'a3', 'a7', 'a8', 'bond(a3,a8)']
+p4: ['a1', 'a9']
+p8: ['a6']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_29.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_29.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_29.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_30.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 11
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 3 ) on pl 1
+Place average OUT degree:  1.1  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 3, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 3, 0, 2, 0, 0, 0, 0]
+
+places= [[2, 5, 10], [], [4], [3], [1], [0], [7], [8], [9], [6]]
+transitions= [[8], [7], [3], [6], [4], [1], [5], [2], [1], [1], [9]] 
+
+
+--- ptarcs (size=11) ---
+(0, 2): ['a0']
+(0, 5): ['a8']
+(0, 10): ['a6']
+(2, 4): ['a1']
+(3, 3): ['a0']
+(4, 1): ['a7']
+(5, 0): ['a1']
+(6, 7): ['a0']
+(7, 8): ['a7']
+(8, 9): ['a1']
+(9, 6): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 8): ['a1']
+(1, 7): ['a7']
+(2, 3): ['a0']
+(3, 6): ['a0']
+(4, 4): ['a1']
+(5, 1): ['a8']
+(6, 5): ['a7']
+(7, 2): ['a0']
+(8, 1): ['a7']
+(9, 1): ['a1']
+(10, 9): ['a6']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a3', 'a4', 'a5', 'a6', 'a8']
+p2: ['a1']
+p4: ['a7']
+p5: ['a9', 'bond(a8,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_30.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_30.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_30.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_31.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 2 ) on pl 3
+Place average OUT degree:  0.9  ( max: 2 ) on pl 5
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.22  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 1, 0, 0, 0, 1, 0, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 4, 1, 2, 0, 2, 0, 0, 0]
+
+places= [[4], [], [3], [6], [1], [5, 8], [0], [], [2], [7]]
+transitions= [[1, 3, 7], [3], [2], [4], [5], [6], [8], [5], [9]] 
+
+
+--- ptarcs (size=9) ---
+(0, 4): ['a4']
+(2, 3): ['a8']
+(3, 6): ['a6']
+(4, 1): ['a6']
+(5, 5): ['a4']
+(5, 8): ['a6']
+(6, 0): ['a1', 'a3', 'a0', 'a5']
+(8, 2): ['a8']
+(9, 7): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 1): ['a1', 'a3']
+(0, 3): ['a0']
+(0, 7): ['a5']
+(1, 3): ['a6']
+(2, 2): ['a8']
+(3, 4): ['a8']
+(4, 5): ['a4']
+(5, 6): ['a4']
+(6, 8): ['a6']
+(7, 5): ['a6']
+(8, 9): ['a6']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a4', 'a9']
+p2: ['a8']
+p3: ['a6']
+p6: ['a0', 'a1', 'a2', 'a3', 'a5', 'a7', 'bond(a2,a7)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_31.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_31.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_31.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_32.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 3 ) on pl 1
+Place average OUT degree:  1.0  ( max: 3 ) on pl 4
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.3  ( max: 2 ) on tr 4
+
+PLACE IN-OUT DIFF:  [-1, 3, 0, 0, -2, 0, 0, 0, 3, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, -1, 0, 0, -1, -1, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 1, 5, 1, 2, 0, 0, 0, 0]
+
+places= [[1], [], [6], [2], [0, 4, 8], [5], [3], [7], [], [9]]
+transitions= [[9], [3], [2], [4], [1, 8], [7], [6], [1, 8], [1, 8], [5]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a7']
+(2, 6): ['a7']
+(3, 2): ['a7']
+(4, 0): ['a2']
+(4, 4): ['a6', 'a8']
+(4, 8): ['a3', 'a9', 'a5']
+(5, 5): ['a9']
+(6, 3): ['a5']
+(7, 7): ['a7']
+(9, 9): ['a2']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 9): ['a2']
+(1, 3): ['a7']
+(2, 2): ['a7']
+(3, 4): ['a5']
+(4, 1): ['a8']
+(4, 8): ['a6']
+(5, 7): ['a9']
+(6, 6): ['a7']
+(7, 1): ['a7']
+(7, 8): []
+(8, 1): []
+(8, 8): ['a9']
+(9, 5): ['a2']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a4', 'a7']
+p4: ['a2', 'a3', 'a5', 'a6', 'a8', 'a9']
+p7: ['a0', 'bond(a0,a2)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_32.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_32.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_32.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_33.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 3
+Place average OUT degree:  1.0  ( max: 2 ) on pl 3
+Trans average  IN degree:  1.11  ( max: 2 ) on tr 5
+Trans average OUT degree:  1.11  ( max: 2 ) on tr 6
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 1, -1, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 2, 3, 1, 0, 1, 0, 0, 0]
+
+places= [[8], [], [5], [2, 4], [1], [7], [6], [3], [0], [5]]
+transitions= [[3], [1], [6], [4], [3], [5], [2, 9], [7], [8]] 
+
+
+--- ptarcs (size=10) ---
+(0, 8): ['a6']
+(2, 5): []
+(3, 2): ['a3']
+(3, 4): ['a4']
+(4, 1): ['a5']
+(5, 7): ['a8']
+(6, 6): []
+(7, 3): ['a0']
+(8, 0): ['a3']
+(9, 5): []
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 3): ['a3']
+(1, 1): ['a5']
+(2, 6): ['a3']
+(3, 4): ['a0']
+(4, 3): ['a4']
+(5, 5): []
+(6, 2): []
+(6, 9): []
+(7, 7): ['a8']
+(8, 8): ['a6']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a2', 'a6', 'a7', 'a9']
+p2: ['a3', 'a8', 'bond(a3,a8)']
+p3: ['a4']
+p4: ['a5']
+p7: ['a0']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_33.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_33.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_33.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_34.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 13
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 5
+Place average OUT degree:  1.3  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.18  ( max: 2 ) on tr 1
+Trans average OUT degree:  1.27  ( max: 2 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-1, 2, -2, 0, -1, 2, -1, 0, 2, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 2, 2, 2, 2, 2, 0, 0, 0]
+
+places= [[0], [], [2, 3, 10], [4], [7, 8], [6], [1, 7], [1, 9], [], [5]]
+transitions= [[5], [1, 8], [5], [5], [2], [4, 6], [3], [1, 8], [7], [7], [9]] 
+
+
+--- ptarcs (size=13) ---
+(0, 0): ['a2']
+(2, 2): ['a5']
+(2, 3): ['a6']
+(2, 10): ['a2']
+(3, 4): ['a2']
+(4, 7): []
+(4, 8): ['a6']
+(5, 6): ['a5']
+(6, 1): ['a2']
+(6, 7): []
+(7, 1): ['a4']
+(7, 9): ['a6']
+(9, 5): ['a9', 'a6', 'a2']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 5): ['a2']
+(1, 1): ['a4']
+(1, 8): ['a2']
+(2, 5): ['a5']
+(3, 5): ['a6']
+(4, 2): ['a2']
+(5, 4): ['a6']
+(5, 6): []
+(6, 3): ['a5']
+(7, 1): []
+(7, 8): []
+(8, 7): ['a6']
+(9, 7): ['a6']
+(10, 9): ['a2']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a7', 'a8']
+p2: ['a5', 'a6']
+p4: ['a9', 'bond(a6,a9)']
+p7: ['a4']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_34.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_34.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_34.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_35.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 9
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 2 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.12  ( max: 2 ) on tr 3
+Trans average OUT degree:  1.62  ( max: 3 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 0, 0, 2, 0, 0, 2]
+
+TRANS IN-OUT DIFF:  [-1, -2, -2, 1, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 2, 3, 1, 1, 0, 0, 0]
+
+places= [[0, 5], [], [3], [4, 7], [3], [1], [], [6], [2], []]
+transitions= [[4, 7], [1, 6, 9], [1, 6, 9], [3], [3], [5], [2], [8]] 
+
+
+--- ptarcs (size=9) ---
+(0, 0): ['a9']
+(0, 5): ['a0']
+(2, 3): []
+(3, 4): ['a4']
+(3, 7): ['a1']
+(4, 3): []
+(5, 1): ['a0', 'a6', 'a1']
+(7, 6): ['a9']
+(8, 2): ['a3', 'a9', 'a0']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 4): []
+(0, 7): ['a9']
+(1, 1): ['a1']
+(1, 6): ['a0', 'a6']
+(1, 9): []
+(2, 1): []
+(2, 6): ['a0']
+(2, 9): []
+(3, 3): []
+(4, 3): ['a4']
+(5, 5): ['a0']
+(6, 2): ['a9']
+(7, 8): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a4', 'a5', 'a7', 'a9', 'bond(a2,a4)']
+p3: ['a1']
+p4: ['bond(a1,a4)']
+p5: ['a6', 'a8', 'bond(a2,a8)']
+p8: ['a3', 'bond(a4,a6)']
+
+Total: 10 single tokens, 4 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_35.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_35.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_35.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_36.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 2 ) on pl 1
+Place average OUT degree:  1.0  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.2  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, 0, 0, 0, 0, 0, 2, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, -1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[5, 1, 1, 1, 1, 1, 0, 0, 0]
+
+places= [[1, 2], [], [6, 8], [3], [4], [5], [7], [], [0], [9]]
+transitions= [[1, 7], [1, 7], [9], [6], [3], [2], [2], [5], [8], [4]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a9', 'a7', 'a4', 'a0']
+(0, 2): ['a1']
+(2, 6): ['a3']
+(2, 8): ['a3']
+(3, 3): ['a3']
+(4, 4): ['a6']
+(5, 5): ['a3']
+(6, 7): ['a3']
+(8, 0): ['a9', 'a8', 'a6', 'a2']
+(9, 9): ['a1']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 1): ['a6', 'a8']
+(0, 7): ['a2', 'a9']
+(1, 1): ['a7', 'a9']
+(1, 7): []
+(2, 9): ['a1']
+(3, 6): ['a3']
+(4, 3): ['a6']
+(5, 2): ['a3']
+(6, 2): ['a3']
+(7, 5): ['a3']
+(8, 8): ['a3']
+(9, 4): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a4', 'a5', 'a7', 'a9']
+p2: ['a3']
+p4: ['a6']
+p5: ['a8', 'bond(a1,a8)']
+p8: ['a2']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_36.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_36.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_36.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_37.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 13
+Ptarcs: 13
+Tparcs: 21 
+
+Place average  IN degree:  2.1  ( max: 3 ) on pl 1
+Place average OUT degree:  1.3  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.62  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 3, 2, 1, -1, 2, 0, 2, 0, 2]
+
+TRANS IN-OUT DIFF:  [-2, -2, -2, -1, 0, -1, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[4, 0, 1, 3, 3, 4, 0, 0, 0]
+
+places= [[0, 1, 2], [], [4], [], [3, 5], [8], [6, 7, 11], [9], [10], [12]]
+transitions= [[1, 7, 9], [6, 7, 9], [1, 7, 9], [2, 5], [2], [2, 5], [1], [6], [5], [8], [4], [6], [3]] 
+
+
+--- ptarcs (size=13) ---
+(0, 0): ['a3', 'a0']
+(0, 1): ['a4', 'a5', 'a9', 'a2']
+(0, 2): ['a5', 'a7', 'a4', 'a2']
+(2, 4): ['a8']
+(4, 3): []
+(4, 5): ['a2']
+(5, 8): ['a6']
+(6, 6): ['a2']
+(6, 7): ['a5']
+(6, 11): ['a5']
+(7, 9): ['a3']
+(8, 10): ['a3']
+(9, 12): ['a9']
+--- end ptarcs ---
+
+
+--- tparcs (size=21) ---
+(0, 1): ['a0']
+(0, 7): ['a3']
+(0, 9): []
+(1, 6): ['a2', 'a5']
+(1, 7): []
+(1, 9): ['a9', 'a4']
+(2, 1): ['a5']
+(2, 7): ['a4', 'a7']
+(2, 9): ['a2']
+(3, 2): []
+(3, 5): []
+(4, 2): ['a8']
+(5, 2): ['a2']
+(5, 5): []
+(6, 1): ['a2']
+(7, 6): ['a5']
+(8, 5): ['a6']
+(9, 8): ['a3']
+(10, 4): ['a3']
+(11, 6): ['a5']
+(12, 3): ['a9']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a7', 'a8', 'a9', 'bond(a1,a8)', 'bond(a1,a9)', 'bond(a4,a7)']
+p4: ['a6', 'bond(a0,a1)', 'bond(a6,a8)']
+
+Total: 10 single tokens, 5 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_37.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_37.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_37.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_38.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 10
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 3 ) on pl 2
+Place average OUT degree:  1.0  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.11  ( max: 2 ) on tr 0
+Trans average OUT degree:  1.22  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 1, 1, 0, 1, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, -1, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 1, 2, 1, 1, 0, 0, 0]
+
+places= [[1, 5], [], [6, 8], [0], [], [0], [3], [4], [2], [7]]
+transitions= [[1, 7], [2], [3, 6], [5], [4], [2], [2], [8], [9]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a3']
+(0, 5): ['a6']
+(2, 6): ['a3']
+(2, 8): ['a3']
+(3, 0): []
+(5, 0): []
+(6, 3): ['a5']
+(7, 4): ['a5']
+(8, 2): ['a9']
+(9, 7): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 1): []
+(0, 7): []
+(1, 2): ['a3']
+(2, 3): ['a9']
+(2, 6): []
+(3, 5): ['a5']
+(4, 4): ['a5']
+(5, 2): ['a6']
+(6, 2): ['a3']
+(7, 8): ['a6']
+(8, 9): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a4', 'a6', 'a8']
+p3: ['a5', 'a9', 'bond(a5,a9)']
+p8: ['a7', 'bond(a5,a7)']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_38.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_38.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_38.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_39.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 11
+Ptarcs: 11
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 1
+Place average OUT degree:  1.1  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.27  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 3, 0, 0, 0, 0, 0, 1, 0, 2]
+
+TRANS IN-OUT DIFF:  [-1, -1, 0, 0, 0, 0, 0, 0, -1, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 4, 0, 1, 2, 1, 0, 0, 0]
+
+places= [[1, 8, 9], [], [3], [0], [4, 7], [2], [6], [], [5], [10]]
+transitions= [[1, 9], [1, 9], [4], [3], [2], [6], [5], [4], [1, 9], [8], [7]] 
+
+
+--- ptarcs (size=11) ---
+(0, 1): []
+(0, 8): ['a7', 'a8', 'a2']
+(0, 9): ['a2']
+(2, 3): ['a6']
+(3, 0): []
+(4, 4): ['a5']
+(4, 7): ['a4']
+(5, 2): ['a5']
+(6, 6): ['a0']
+(8, 5): ['a0']
+(9, 10): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 1): []
+(0, 9): []
+(1, 1): []
+(1, 9): []
+(2, 4): ['a5']
+(3, 3): ['a6']
+(4, 2): ['a5']
+(5, 6): ['a0']
+(6, 5): ['a0']
+(7, 4): ['a4']
+(8, 1): ['a2', 'a7']
+(8, 9): ['a8']
+(9, 8): ['a2']
+(10, 7): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a7', 'a8', 'a9', 'bond(a0,a7)']
+p2: ['a6']
+p3: ['a3', 'bond(a3,a7)']
+p4: ['a4', 'a5']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_39.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_39.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_39.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_40.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 13
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 2
+Place average OUT degree:  1.3  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.3  ( max: 2 ) on tr 2
+Trans average OUT degree:  1.4  ( max: 2 ) on tr 1
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, -1, 1, 0, 0, -1, 0, -1, 0, 1]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 2, 3, 0, 4, 0, 0, 0]
+
+places= [[1], [], [0, 3, 4], [2, 6], [7], [8], [2, 6], [9], [5], [9]]
+transitions= [[4], [3, 6], [2], [2], [2], [1, 5], [3, 6], [7, 9], [5], [8]] 
+
+
+--- ptarcs (size=13) ---
+(0, 1): ['a9', 'a2']
+(2, 0): ['a9']
+(2, 3): ['a2']
+(2, 4): ['a2']
+(3, 2): ['a2']
+(3, 6): []
+(4, 7): ['a8', 'a5', 'a4']
+(5, 8): ['a2']
+(6, 2): ['a9']
+(6, 6): []
+(7, 9): []
+(8, 5): []
+(9, 9): []
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 4): ['a9']
+(1, 3): ['a2']
+(1, 6): []
+(2, 2): []
+(3, 2): ['a2']
+(4, 2): ['a2']
+(5, 1): []
+(5, 5): []
+(6, 3): []
+(6, 6): []
+(7, 7): ['a8', 'a5']
+(7, 9): ['a4']
+(8, 5): ['a2']
+(9, 8): []
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a6', 'a7', 'a9', 'bond(a1,a6)']
+p4: ['a4', 'a5', 'a8']
+p8: ['bond(a2,a6)']
+p9: ['bond(a4,a8)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_40.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_40.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_40.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_41.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 9
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 2 ) on pl 2
+Place average OUT degree:  0.9  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.12  ( max: 2 ) on tr 0
+Trans average OUT degree:  1.38  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 1, 1, 0, 1, 1, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, -1, -1, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 3, 1, 2, 1, 0, 0, 0, 0]
+
+places= [[3, 4], [], [0], [1], [], [0], [2], [5], [6], [7]]
+transitions= [[8, 9], [2, 5], [2, 5], [3], [6], [1], [7], [4]] 
+
+
+--- ptarcs (size=9) ---
+(0, 3): ['a0']
+(0, 4): ['a5']
+(2, 0): ['a5']
+(3, 1): []
+(5, 0): ['a2']
+(6, 2): ['a2']
+(7, 5): ['a4']
+(8, 6): ['a2']
+(9, 7): ['a5']
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 8): ['a2']
+(0, 9): ['a5']
+(1, 2): []
+(1, 5): []
+(2, 2): []
+(2, 5): ['a2']
+(3, 3): ['a0']
+(4, 6): ['a5']
+(5, 1): ['a4']
+(6, 7): ['a2']
+(7, 4): ['a5']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a3', 'a5', 'a7', 'a8', 'a9']
+p3: ['a4', 'bond(a0,a4)']
+p5: ['a2']
+p6: ['a6', 'bond(a5,a6)']
+
+Total: 10 single tokens, 2 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_41.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_41.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_41.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_42.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 13 
+
+Place average  IN degree:  1.3  ( max: 2 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.44  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 2, 1, 0, -1, 0, 0, 0, 2, 2]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0, -2]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 1, 2, 2, 2, 0, 0, 0, 0]
+
+places= [[1, 2], [], [0], [4], [3, 6], [5], [7], [8], [], []]
+transitions= [[1, 8, 9], [7], [6], [2], [4], [3], [2], [5], [1, 8, 9]] 
+
+
+--- ptarcs (size=9) ---
+(0, 1): ['a7']
+(0, 2): ['a8']
+(2, 0): ['a7', 'a2']
+(3, 4): ['a2']
+(4, 3): ['a6']
+(4, 6): ['a2']
+(5, 5): ['a1']
+(6, 7): ['a8']
+(7, 8): ['a1', 'a8', 'a9', 'a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=13) ---
+(0, 1): []
+(0, 8): ['a7']
+(0, 9): ['a2']
+(1, 7): ['a7']
+(2, 6): ['a8']
+(3, 2): ['a6']
+(4, 4): ['a2']
+(5, 3): ['a1']
+(6, 2): ['a2']
+(7, 5): ['a8']
+(8, 1): []
+(8, 8): ['a8']
+(8, 9): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a3', 'a5', 'a7', 'a8']
+p2: ['a2', 'a4', 'a9', 'bond(a4,a9)']
+p4: ['a6']
+p5: ['a1']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_42.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_42.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_42.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_43.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 8
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 6
+Place average OUT degree:  0.8  ( max: 2 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.25  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-2, 1, 0, 1, 1, 0, 1, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-2, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[2, 0, 4, 2, 1, 0, 0, 0, 0]
+
+places= [[1, 3], [], [0], [], [], [2], [4], [6], [5], [7]]
+transitions= [[1, 3, 4], [6], [9], [5], [7], [2], [8], [6]] 
+
+
+--- ptarcs (size=8) ---
+(0, 1): ['a9']
+(0, 3): ['a3']
+(2, 0): ['a9']
+(5, 2): ['a3']
+(6, 4): ['a9']
+(7, 6): ['a9']
+(8, 5): ['a8']
+(9, 7): ['a3']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 1): []
+(0, 3): ['a9']
+(0, 4): []
+(1, 6): ['a9']
+(2, 9): ['a3']
+(3, 5): ['a3']
+(4, 7): ['a9']
+(5, 2): ['a8']
+(6, 8): ['a9']
+(7, 6): ['a3']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a2', 'a3', 'a4', 'a6', 'a7', 'a9']
+p2: ['a1', 'a5', 'bond(a1,a5)']
+p8: ['a8']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_43.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_43.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_43.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_44.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 14
+Ptarcs: 14
+Tparcs: 14 
+
+Place average  IN degree:  1.4  ( max: 3 ) on pl 4
+Place average OUT degree:  1.4  ( max: 3 ) on pl 2
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, -1, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 3, 2, 0, 2, 3, 0, 0, 0]
+
+places= [[7], [], [3, 10, 12], [2], [0, 8, 11], [4, 6], [1], [5], [9], [13]]
+transitions= [[8], [9], [5], [4], [2], [1], [5], [6], [7], [1], [4], [4], [2], [3]] 
+
+
+--- ptarcs (size=14) ---
+(0, 7): ['a5']
+(2, 3): ['a6']
+(2, 10): ['a3']
+(2, 12): ['a3']
+(3, 2): ['a3']
+(4, 0): ['a6']
+(4, 8): ['a0']
+(4, 11): ['a3']
+(5, 4): ['a3']
+(5, 6): ['a4']
+(6, 1): ['a8']
+(7, 5): ['a6']
+(8, 9): ['a6']
+(9, 13): ['a8']
+--- end ptarcs ---
+
+
+--- tparcs (size=14) ---
+(0, 8): ['a6']
+(1, 9): ['a8']
+(2, 5): ['a3']
+(3, 4): ['a6']
+(4, 2): ['a3']
+(5, 1): ['a6']
+(6, 5): ['a4']
+(7, 6): ['a5']
+(8, 7): ['a0']
+(9, 1): ['a6']
+(10, 4): ['a3']
+(11, 4): ['a3']
+(12, 2): ['a3']
+(13, 3): ['a8']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a2', 'a5', 'a7', 'a9']
+p2: ['a3', 'a6']
+p4: ['a0']
+p5: ['a4']
+p6: ['a8']
+p9: ['a1', 'bond(a1,a4)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_44.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_44.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_44.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_45.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 8
+Ptarcs: 9
+Tparcs: 11 
+
+Place average  IN degree:  1.1  ( max: 2 ) on pl 1
+Place average OUT degree:  0.9  ( max: 2 ) on pl 2
+Trans average  IN degree:  1.12  ( max: 2 ) on tr 3
+Trans average OUT degree:  1.38  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 2, -1, 0, 0, 1, 0, 1, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, -1, 0, 1, -1, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 1, 2, 2, 1, 0, 0, 0, 0]
+
+places= [[7], [], [1, 4], [3], [2], [], [3], [5], [6], [0]]
+transitions= [[3, 6], [1, 7], [8], [4], [1, 7], [5], [2], [9]] 
+
+
+--- ptarcs (size=9) ---
+(0, 7): ['a1']
+(2, 1): ['a3']
+(2, 4): ['a3']
+(3, 3): []
+(4, 2): ['a3']
+(6, 3): []
+(7, 5): ['a8']
+(8, 6): ['a3']
+(9, 0): []
+--- end ptarcs ---
+
+
+--- tparcs (size=11) ---
+(0, 3): []
+(0, 6): []
+(1, 1): []
+(1, 7): ['a3']
+(2, 8): ['a3']
+(3, 4): []
+(4, 1): ['a3']
+(4, 7): []
+(5, 5): ['a8']
+(6, 2): ['a3']
+(7, 9): ['a1']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a5', 'a6', 'a7']
+p2: ['a3', 'a4', 'a8', 'a9', 'bond(a1,a9)', 'bond(a4,a8)']
+p3: ['a2', 'bond(a2,a3)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_45.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_45.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_45.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_46.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 3
+Place average OUT degree:  1.0  ( max: 2 ) on pl 3
+Trans average  IN degree:  1.11  ( max: 2 ) on tr 1
+Trans average OUT degree:  1.11  ( max: 2 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[4, 1, 2, 1, 0, 1, 0, 0, 0]
+
+places= [[3], [], [1], [1, 2], [0], [4], [5], [6], [7], [8]]
+transitions= [[7, 8], [1], [3], [5], [9], [2], [3], [6], [4]] 
+
+
+--- ptarcs (size=10) ---
+(0, 3): ['a7']
+(2, 1): []
+(3, 1): []
+(3, 2): ['a0']
+(4, 0): ['a7', 'a2', 'a5', 'a3']
+(5, 4): ['a7']
+(6, 5): ['a5']
+(7, 6): ['a7']
+(8, 7): ['a3']
+(9, 8): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 7): ['a7', 'a5']
+(0, 8): ['a2', 'a3']
+(1, 1): []
+(2, 3): ['a0']
+(3, 5): ['a7']
+(4, 9): ['a7']
+(5, 2): ['a5']
+(6, 3): ['a7']
+(7, 6): ['a3']
+(8, 4): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a1', 'a4', 'a7', 'a8', 'a9']
+p3: ['a0', 'a3', 'a6', 'bond(a3,a6)']
+p4: ['a2', 'a5']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_46.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_46.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_46.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_47.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 12 
+
+Place average  IN degree:  1.2  ( max: 3 ) on pl 3
+Place average OUT degree:  1.0  ( max: 3 ) on pl 3
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.2  ( max: 3 ) on tr 2
+
+PLACE IN-OUT DIFF:  [-1, 1, 1, 0, 0, 1, -1, 1, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, -2, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[3, 2, 1, 2, 1, 2, 0, 0, 0]
+
+places= [[1], [], [0], [2, 3, 5], [4], [], [8, 9], [], [7], [6]]
+transitions= [[3], [4], [1, 7, 8], [3], [6], [3], [2], [5], [2], [9]] 
+
+
+--- ptarcs (size=10) ---
+(0, 1): ['a9']
+(2, 0): ['a4']
+(3, 2): ['a9', 'a6', 'a5', 'a1']
+(3, 3): ['a4']
+(3, 5): ['a4']
+(4, 4): ['a9']
+(6, 8): ['a9']
+(6, 9): ['a7']
+(8, 7): ['a6']
+(9, 6): ['a2']
+--- end ptarcs ---
+
+
+--- tparcs (size=12) ---
+(0, 3): ['a4']
+(1, 4): ['a9']
+(2, 1): ['a9']
+(2, 7): ['a5']
+(2, 8): []
+(3, 3): ['a4']
+(4, 6): ['a9']
+(5, 3): ['a4']
+(6, 2): ['a2']
+(7, 5): ['a6']
+(8, 2): ['a9']
+(9, 9): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a3', 'a9']
+p2: ['a4']
+p3: ['a1', 'a5', 'a6']
+p6: ['a7']
+p9: ['a2', 'a8', 'bond(a2,a8)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_47.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_47.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_47.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_48.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 9
+Ptarcs: 9
+Tparcs: 16 
+
+Place average  IN degree:  1.6  ( max: 3 ) on pl 4
+Place average OUT degree:  0.9  ( max: 3 ) on pl 0
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.78  ( max: 3 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-3, 2, 2, 1, 0, 1, 1, 1, 2, 0]
+
+TRANS IN-OUT DIFF:  [-2, -1, 0, -2, 0, -1, 0, -1, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 0, 3, 4, 3, 1, 0, 0, 0]
+
+places= [[0, 4, 6], [], [], [], [1, 2, 5], [3], [7], [], [], [8]]
+transitions= [[2, 4, 6], [1, 8], [4], [2, 4, 9], [5], [1, 8], [5], [3, 7], [6]] 
+
+
+--- ptarcs (size=9) ---
+(0, 0): ['a3', 'a2']
+(0, 4): ['a9']
+(0, 6): ['a9']
+(4, 1): ['a9', 'a5', 'a3']
+(4, 2): ['a2']
+(4, 5): ['a8', 'a6', 'a5', 'a1']
+(5, 3): ['a2', 'a3', 'a6', 'a5']
+(6, 7): ['a2', 'a4']
+(9, 8): ['a6']
+--- end ptarcs ---
+
+
+--- tparcs (size=16) ---
+(0, 2): ['a3']
+(0, 4): ['a2']
+(0, 6): []
+(1, 1): ['a9']
+(1, 8): ['a5', 'a3']
+(2, 4): ['a2']
+(3, 2): ['a2']
+(3, 4): ['a5']
+(3, 9): ['a6', 'a3']
+(4, 5): ['a9']
+(5, 1): ['a1', 'a5']
+(5, 8): ['a6', 'a8']
+(6, 5): ['a9']
+(7, 3): ['a2', 'a4']
+(7, 7): []
+(8, 6): ['a6']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a9', 'bond(a1,a9)']
+p4: ['a5', 'a6', 'a8']
+p5: ['bond(a8,a9)']
+p6: ['a4', 'a7', 'bond(a5,a7)']
+
+Total: 10 single tokens, 3 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_48.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_48.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_48.lp
+Filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_49.lp
+True
+8
+8
+
+█▀ ▀█▀ ▄▀█ ▀█▀ █ █▀ ▀█▀ █ █▀▀ █▀
+▄█  █  █▀█  █  █ ▄█  █  █ █▄▄ ▄█
+
+Places: 10
+Transitions: 10
+Ptarcs: 10
+Tparcs: 10 
+
+Place average  IN degree:  1.0  ( max: 2 ) on pl 4
+Place average OUT degree:  1.0  ( max: 2 ) on pl 4
+Trans average  IN degree:  1.0  ( max: 1 ) on tr 0
+Trans average OUT degree:  1.0  ( max: 1 ) on tr 0
+
+PLACE IN-OUT DIFF:  [-1, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+TRANS IN-OUT DIFF:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+ R1 R2 R3 R4 R5 R6 R7 R8 R9
+[1, 2, 5, 0, 0, 1, 0, 0, 0]
+
+places= [[8], [], [3], [5], [0, 7], [6], [2], [4], [1], [9]]
+transitions= [[9], [3], [2], [4], [1], [6], [7], [4], [8], [5]] 
+
+
+--- ptarcs (size=10) ---
+(0, 8): ['a1']
+(2, 3): ['a8']
+(3, 5): ['a8']
+(4, 0): ['a7']
+(4, 7): ['a8']
+(5, 6): ['a4']
+(6, 2): ['a8']
+(7, 4): ['a8']
+(8, 1): ['a8']
+(9, 9): ['a7']
+--- end ptarcs ---
+
+
+--- tparcs (size=10) ---
+(0, 9): ['a7']
+(1, 3): ['a8']
+(2, 2): ['a8']
+(3, 4): ['a8']
+(4, 1): ['a8']
+(5, 6): ['a8']
+(6, 7): ['a4']
+(7, 4): ['a8']
+(8, 8): ['a1']
+(9, 5): ['a7']
+--- end tparcs ---
+
+['a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9']
+
+=== Single-Token RPN (Globally Unique Tokens) ===
+
+=== Final Token Placement ===
+p0: ['a0', 'a1', 'a2', 'a3', 'a5', 'a6']
+p2: ['a8']
+p4: ['a4', 'a7', 'a9', 'bond(a4,a9)']
+
+Total: 10 single tokens, 1 bonds
+Final filename: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_49.lp
+Running command: /usr/local/bin/clingo /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_49.lp /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/lp_files_run/wellformed.lp
+✔️ Well-formed, visualizing...
+✅ created: /Users/eleftheriakouppari/Desktop/PHD/CURRENT/CODE/PhD-RPN-ASP/RandomPetriNetsGenerator/RESULTS_full/places_to_stop/10/r1_r2_r3_r4_r5_r6/bonds/token_types_10/randomPN_49.lp

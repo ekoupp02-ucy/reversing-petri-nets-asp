@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv/
+venv/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Clingo / solver temp files
+temp/
+results_parallel/
+*.profraw
+out.lp
+out.txt
+
+# Lock files
+*.lock
+
+# Generated logs
+*.log
+generation_log.txt
+
+# Generated ground files
+*ground.lp
+
+# Large data (regenerate with main.py)
+# Uncomment if you want to exclude all generated nets:
+# RandomPetriNetsGenerator/RESULTS_full/
+
+# IDE
+.vscode/
+.idea/
