@@ -1,0 +1,8 @@
+:- not holds(p1,a0,11).
+:- not holds(p3,a4,11).
+:- not holds(p3,a5,11).
+:- not holds(p7,a3,11).
+:- not holdsbonds(p1,a1,a5,11).
+:- not holdsbonds(p1,a2,a5,11).
+time(0..11).
+history(0..11).

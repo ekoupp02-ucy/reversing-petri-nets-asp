@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  TOKEN & BOND DISTRIBUTION %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%            ARCS             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ptarc(p0,t4,a4).
+ptarcb(p3,t3,a18,a4).
+ptarcb(p6,t1,a18,a2).
+ptarc(p7,t2,a15).
+ptarc(p7,t2,a18).
+ptarc(p8,t5,a18).
+ptarc(p9,t0,a4).
+ptarc(p9,t0,a18).
+ptarc(p9,t0,a5).
+ptarcb(p9,t0,a15,a2).
+tparc(t0,p1,a5).
+tparcb(t0,p1,a15,a2).
+tparc(t0,p6,a18).
+tparc(t0,p6,a4).
+tparcb(t1,p4,a18,a2).
+tparc(t2,p9,a18).
+tparc(t2,p5,a15).
+tparcb(t3,p2,a18,a4).
+tparc(t4,p7,a4).
+tparc(t5,p4,a18).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       INITIAL MARKING       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+holds(p0,a0,0).
+holds(p0,a1,0).
+holds(p0,a10,0).
+holds(p0,a11,0).
+holds(p0,a12,0).
+holds(p0,a13,0).
+holds(p0,a14,0).
+holds(p0,a16,0).
+holds(p0,a17,0).
+holds(p0,a19,0).
+holds(p0,a3,0).
+holds(p0,a4,0).
+holds(p0,a6,0).
+holds(p0,a7,0).
+holds(p0,a8,0).
+holds(p0,a9,0).
+holds(p3,a18,0).
+holds(p6,a2,0).
+holds(p7,a15,0).
+holds(p9,a5,0).
+holdsbonds(p3,a18,a4,0).
+holdsbonds(p6,a18,a2,0).
+holdsbonds(p9,a15,a2,0).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%            TIME             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
